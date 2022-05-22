@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "vazir";
+  src: url("fonts/vazir.eot");
+  src: url("fonts/vazir.woff") format("woff"),
+    url("fonts/vazir.otf") format("opentype"),
+    url("fonts/vazir.svg") format("svg");
+}
+body {
+  font-family: "vazir";
+  text-align: center;
+  background-color: bisque;
+  line-height: 2;
+  padding: 5%;
+}
+h1,
+h2,
+p {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 2%;
+}
+.sar-titr {
+  color: rgb(255, 0, 0);
+  border-style: dotted;
+  border-width: 5px;
+  margin-top: 50px;
+}
+.mesal {
+  color: rgb(0, 24, 245);
+  border-style: dotted;
+  border-width: 5px;
+  margin-top: 50px;
+}
+@media (min-width: 640px) {
+  .mesal,
+  .sar-titr {
+    display: inline-block;
+    padding: 2% 4%;
+  }
+  h1,
+  h2,
+  p {
+    border: none;
+  }
+}
